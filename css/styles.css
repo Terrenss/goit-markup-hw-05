@@ -507,13 +507,20 @@ body {
   right: 24px;
   width: 24px;
   height: 24px;
-  border: none;
-  background: none;
-  /* background: #e7e9fc; */
-  /* border: 1px solid rgba(0, 0, 0, 0.1); */
-  /* border-radius: 50%; */
-  /* margin-left: auto;
-  margin-right: 24px; */
+  background: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+.modal-button:hover {
+  background: #404bbf;
+  fill: #ffffff;
+}
+
+.close-modal-icon {
+  width: 8px;
+  height: 8px;
 }
 
 /* /Hero Section */
